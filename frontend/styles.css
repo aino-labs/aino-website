@@ -243,7 +243,7 @@ section {
 
 .background_3d--services {
   position: absolute;
-  right: -65%;
+  right: -280px;
   width: 588px;
   height: 604px;
   background: url('./images/3d_orange_shape.png');
@@ -261,16 +261,21 @@ section {
   z-index: -9;
   position: absolute;
   top: 0; right: 50px;
-  width: 100%;
+  width: 670px;
   height: 250px;
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   background: rgba(255,255,255,0.1);
 
-  -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 70%, rgba(0,0,0,0) 100%);
+  -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 70%, rgba(0,0,0,0) 100%),
+    linear-gradient(to left, rgba(0,0,0,1) 70%, rgba(0,0,0,0) 100%);
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-size: cover;
-  mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 70%, rgba(0,0,0,0) 100%);
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 70%, rgba(0,0,0,0) 100%),
+    linear-gradient(to left, rgba(0,0,0,1) 70%, rgba(0,0,0,0.5) 90%, rgba(0,0,0,0) 100%);
+  mask-composite: intersect; 
+  -webkit-mask-composite: destination-in;
+
   mask-repeat: no-repeat;
   mask-size: cover;
 }
@@ -347,7 +352,7 @@ section {
 .background_3d--steps {
   position: absolute;
   top: 55px;
-  left: -25%;
+  left: -80px;
   width: 220px;
   height: 220px;
   background: url('./images/3d_orange_shape_2.png');
@@ -519,6 +524,7 @@ section {
 .advantages {
   position: relative;
   margin-top: 70px;
+  overflow: hidden;
 }
 
 .background_3d--advantages {
@@ -527,8 +533,8 @@ section {
   top: 15px;
   left: 50%;
   transform: translateX(-50%);
-  width: 100%;
-  height: 467px;
+  width: 584px;
+  height: 584px;
   background: url('./images/3d_orange_shape_3.png');
   background-position: center;
   background-size: cover;
@@ -547,7 +553,7 @@ section {
   width: 100%;
   filter: blur(23px);
   background-color: rgba(240, 42, 42, 0.3);
-  box-shadow: 20px 5px 20px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 7px 12px 20px 11px rgba(0, 0, 0, 0.3);
 }
 
 
@@ -620,7 +626,7 @@ section {
   width: 400px;
   height: 400px;
   top: 40px;
-  right: -50%;
+  right: -200px;
   transform: rotate(185deg);
   background: url('./images/3d_orange_shape_4.png');
   background-position: center;
