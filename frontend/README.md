@@ -1,3 +1,19 @@
+инструкция для работы PHPMailer
+
+нужно чтобы был php и composer и прописать
+composer init
+composer require phpmailer/phpmailer
+composer require vlucas/phpdotenv
+
+затем создать файл .env , в нём прописать заполненный TEMPLATE.env
+для корректной работы в sendmail.php уследить, чтобы все пути соответсвовали написанному, точнее в строчках
+require __DIR__ . '/../vendor/autoload.php';
+и
+$dotenv = Dotenv::createImmutable(__DIR__ . '/../');
+
+$dotenv ---> .env
+vendor ---> папка vendor создается после команд composer
+
 todo:
     1. Страница "О нас"
     2. Вопросы-ответы в FAQ
