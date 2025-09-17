@@ -1,0 +1,15 @@
+services:
+  aino-website:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: aino_website
+    ports:
+      - "8080:80"
+    restart: unless-stopped
+    networks:
+      - aino-network
+
+networks:
+  aino-network:
+    driver: bridge
