@@ -5,7 +5,7 @@ services:
       dockerfile: Dockerfile
     container_name: aino_website
     ports:
-      - "80:80"
+      - "8080:80"
     restart: unless-stopped
     networks:
       - aino-network
