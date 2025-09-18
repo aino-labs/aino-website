@@ -145,7 +145,7 @@ section {
   border: none;
   box-shadow: 0px 1px 7px 0px #4D4D4D,
               5px -8px 16px 0px #036A9D inset,
-              0px 4px 8px 0px #52BBEF inset; 
+              0px 4px 8px 0px #52BBEF inset;
   background: radial-gradient(56.94% 50% at 50% 50%, #52BBEF 0%, #0088CC 99.99%);
 }
 
@@ -242,7 +242,7 @@ section {
   padding: 2px;
   background: radial-gradient(77.05% 253.56% at 32.65% 13.93%, #E2E2E2 0%, #949494 100%);
   -webkit-mask:
-    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0) content-box,
     linear-gradient(#fff 0 0);
   -webkit-mask-composite: destination-out;
   mask-composite: exclude;
@@ -344,7 +344,7 @@ section {
   padding: 1px;
   background: radial-gradient(77.05% 253.56% at 32.65% 13.93%, #E2E2E2 0%, #949494 100%);
   -webkit-mask:
-    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0) content-box,
     linear-gradient(#fff 0 0);
   -webkit-mask-composite: destination-out;
   mask-composite: exclude;
@@ -413,7 +413,7 @@ section {
   padding: 1px;
   background: radial-gradient(77.05% 253.56% at 32.65% 13.93%, #E2E2E2 0%, #949494 100%);
   -webkit-mask:
-    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0) content-box,
     linear-gradient(#fff 0 0);
   -webkit-mask-composite: destination-out;
   mask-composite: exclude;
@@ -484,7 +484,7 @@ section {
   background-position: center;
   background-size: cover;
   pointer-events: none;
-  z-index: -15; 
+  z-index: -15;
 }
 
 .project__card--bottom {
@@ -510,7 +510,7 @@ section {
   padding: 1px;
   background: radial-gradient(77.05% 253.56% at 32.65% 13.93%, #E2E2E2 0%, #949494 100%);
   -webkit-mask:
-    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0) content-box,
     linear-gradient(#fff 0 0);
   -webkit-mask-composite: destination-out;
   mask-composite: exclude;
@@ -542,7 +542,7 @@ section {
   background: url('./images/3d_3.png');
   background-position: center;
   background-size: cover;
-  pointer-events: none;   
+  pointer-events: none;
 }
 
 .background_3d--advantages::after {
@@ -606,7 +606,7 @@ section {
   padding: 1px;
   background: radial-gradient(77.05% 253.56% at 32.65% 13.93%, #E2E2E2 0%, #949494 100%);
   -webkit-mask:
-    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0) content-box,
     linear-gradient(#fff 0 0);
   -webkit-mask-composite: destination-out;
   mask-composite: exclude;
@@ -641,7 +641,7 @@ section {
   background: url('./images/3d_4.png');
   background-position: center;
   background-size: cover;
-  pointer-events: none;  
+  pointer-events: none;
 }
 
 .background_3d--b2b::after {
@@ -717,7 +717,7 @@ section {
   padding: 1px;
   background: radial-gradient(77.05% 253.56% at 32.65% 13.93%, #E2E2E2 0%, #949494 100%);
   -webkit-mask:
-    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0) content-box,
     linear-gradient(#fff 0 0);
   -webkit-mask-composite: destination-out;
   mask-composite: exclude;
@@ -750,7 +750,7 @@ section {
   border-radius: 24px;
   text-align: center;
   color: black;
-  word-break: break-word;  
+  word-break: break-word;
 }
 
 .b2b__form--result._fail {
@@ -760,7 +760,7 @@ section {
   border-radius: 24px;
   text-align: center;
   color: black;
-  word-break: break-word;  
+  word-break: break-word;
 }
 
 .b2b__form--text {
@@ -818,7 +818,7 @@ section {
   background: url('./images/3d_5.png');
   background-position: center;
   background-size: cover;
-  pointer-events: none;   
+  pointer-events: none;
 
 }
 
@@ -857,7 +857,7 @@ section {
   padding: 1px;
   background: radial-gradient(77.05% 253.56% at 32.65% 13.93%, #E2E2E2 0%, #949494 100%);
   -webkit-mask:
-    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0) content-box,
     linear-gradient(#fff 0 0);
   -webkit-mask-composite: destination-out;
   mask-composite: exclude;
@@ -959,9 +959,9 @@ details[open]::details-content {
 }
 
 .footer__svg {
-  display: block;  
-  width: 100%;        
-  height: auto;       
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .designed_by {
@@ -1026,7 +1026,7 @@ dialog > ul {
 
 /* desktop */
 @media (min-width: 1024px) {
-  
+
 
   .hero {
     width: calc(100% - 160px);
@@ -1163,9 +1163,6 @@ dialog > ul {
     background-color: #52BBEF50;
   }
 
-  .steps__cards {
-    gap: 0;
-  }
 
   .step__card {
     max-width: 620px;
