@@ -4,6 +4,8 @@ services:
       context: ./frontend
       dockerfile: Dockerfile
     container_name: aino_website
+    ports:
+      - "80:80"
     restart: unless-stopped
     networks:
       - aino-network
