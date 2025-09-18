@@ -56,6 +56,8 @@ body {
 
 section {
   width: 100%;
+  border: none;
+  outline: none;
 }
 
 @font-face {
@@ -690,8 +692,8 @@ section {
 
 
 .b2b__form {
-  max-width: 500px;
-  margin: 15px 20px 30px 20px;
+  max-width: 90%;
+  margin: 20px auto;
   position: relative;
   border: 1px solid transparent;
   padding: 25px;
@@ -801,12 +803,10 @@ section {
 
 
 
-
-
 .faq {
   margin-top: 40px;
-  position: relative;
-  overflow: hidden;
+  border-radius: 0;
+  background-clip: padding-box;
 }
 
 .background_3d--faq {
@@ -846,7 +846,6 @@ section {
   display: flex;
   flex-direction: column;
   border-radius: 20px;
-  border: 1px solid transparent;
   box-shadow: 11px 16px 20px 0px rgba(0, 0, 0, 0.09);
 }
 
@@ -998,9 +997,13 @@ dialog > ul {
   border-top-right-radius: 20px;
 }
 
- .faq details:first-of-type {
-   border-top-left-radius: 20px;
-   border-top-right-radius: 20px;
+ .faq details:last-of-type {
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+ }
+
+ html, body {
+   overflow-x: hidden; /* as a fallback */
  }
 
 
@@ -1325,7 +1328,6 @@ dialog > ul {
   }
 
   .b2b__content > * {
-    margin: 0;
   }
 
   .background_3d--b2b {
@@ -1379,9 +1381,9 @@ dialog > ul {
 
 
   .faq {
-    overflow: hidden;
     position: unset;
     margin: 0;
+    border-radius: 0;
   }
 
   .faq__title {
