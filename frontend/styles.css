@@ -32,6 +32,10 @@ p, h1, h2, h3, h4, h5, h6 {
   overflow-wrap: break-word;
 }
 
+.def-shadow {
+  box-shadow: 0px 4px 40px 0px rgba(23, 23, 23, 0.2);
+}
+
 
 p {
   text-wrap: pretty;
@@ -141,9 +145,9 @@ section {
   font-size: 20px;
   font-weight: 700;
   border: none;
-  box-shadow: 0px 1px 7px 0px #4D4D4D,
-              5px -8px 16px 0px #036A9D inset,
-              0px 4px 8px 0px #52BBEF inset; 
+  box-shadow: 0px 2px 2px 0px rgba(77, 77, 77, 1),
+              5px -8px 2px 0px rgba(3, 106, 157, 1) inset,
+              0px 4px 6px 0px rgba(82, 187, 239, 1) inset;
   background: radial-gradient(56.94% 50% at 50% 50%, #52BBEF 0%, #0088CC 99.99%);
 }
 
@@ -229,7 +233,6 @@ section {
   background-color: rgba(222, 222, 222, 0.5);
   backdrop-filter: blur(4px);
   overflow: hidden;
-  box-shadow: 11px 16px 20px 0px rgba(0, 0, 0, 0.09);
 }
 
 .service__card::before {
@@ -331,7 +334,6 @@ section {
   display: flex;
   flex-direction: column;
   gap: 15px;
-  box-shadow: 20px 16px 20px rgba(0, 0, 0, 0.09);
 }
 
 .step__card::before {
@@ -400,7 +402,6 @@ section {
   display: flex;
   flex-direction: column;
   background-color: transparent;
-  box-shadow: 20px 16px 20px rgba(0, 0, 0, 0.09);
 }
 
 .project__card::before {
@@ -593,7 +594,6 @@ section {
   border-radius: 24px;
   background-color: rgba(222, 222, 222, 0.5);
   backdrop-filter: blur(4px);
-  box-shadow: 7px 14px 20px 0px rgba(0, 0, 0, 0.09);
 }
 
 .advantage__card::before {
@@ -701,7 +701,6 @@ section {
   border-radius: 32px;
   background-color: rgba(222, 222, 222, 0.5);
   backdrop-filter: blur(4px);
-  box-shadow: 20px 11px 20px 0px rgba(0, 0, 0, 0.09);
   align-self: center;
 }
 
@@ -847,7 +846,6 @@ section {
   flex-direction: column;
   border-radius: 20px;
   border: 1px solid transparent;
-  box-shadow: 11px 16px 20px 0px rgba(0, 0, 0, 0.09);
 }
 
 .questions::before {
