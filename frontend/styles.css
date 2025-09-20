@@ -56,6 +56,8 @@ body {
 
 section {
   width: 100%;
+  border: none;
+  outline: none;
 }
 
 @font-face {
@@ -143,7 +145,7 @@ section {
   border: none;
   box-shadow: 0px 1px 7px 0px #4D4D4D,
               5px -8px 16px 0px #036A9D inset,
-              0px 4px 8px 0px #52BBEF inset; 
+              0px 4px 8px 0px #52BBEF inset;
   background: radial-gradient(56.94% 50% at 50% 50%, #52BBEF 0%, #0088CC 99.99%);
 }
 
@@ -240,7 +242,7 @@ section {
   padding: 2px;
   background: radial-gradient(77.05% 253.56% at 32.65% 13.93%, #E2E2E2 0%, #949494 100%);
   -webkit-mask:
-    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0) content-box,
     linear-gradient(#fff 0 0);
   -webkit-mask-composite: destination-out;
   mask-composite: exclude;
@@ -342,7 +344,7 @@ section {
   padding: 1px;
   background: radial-gradient(77.05% 253.56% at 32.65% 13.93%, #E2E2E2 0%, #949494 100%);
   -webkit-mask:
-    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0) content-box,
     linear-gradient(#fff 0 0);
   -webkit-mask-composite: destination-out;
   mask-composite: exclude;
@@ -411,7 +413,7 @@ section {
   padding: 1px;
   background: radial-gradient(77.05% 253.56% at 32.65% 13.93%, #E2E2E2 0%, #949494 100%);
   -webkit-mask:
-    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0) content-box,
     linear-gradient(#fff 0 0);
   -webkit-mask-composite: destination-out;
   mask-composite: exclude;
@@ -482,7 +484,7 @@ section {
   background-position: center;
   background-size: cover;
   pointer-events: none;
-  z-index: -15; 
+  z-index: -15;
 }
 
 .project__card--bottom {
@@ -508,7 +510,7 @@ section {
   padding: 1px;
   background: radial-gradient(77.05% 253.56% at 32.65% 13.93%, #E2E2E2 0%, #949494 100%);
   -webkit-mask:
-    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0) content-box,
     linear-gradient(#fff 0 0);
   -webkit-mask-composite: destination-out;
   mask-composite: exclude;
@@ -540,7 +542,7 @@ section {
   background: url('./images/3d_3.webp');
   background-position: center;
   background-size: cover;
-  pointer-events: none;   
+  pointer-events: none;
 }
 
 .background_3d--advantages::after {
@@ -604,7 +606,7 @@ section {
   padding: 1px;
   background: radial-gradient(77.05% 253.56% at 32.65% 13.93%, #E2E2E2 0%, #949494 100%);
   -webkit-mask:
-    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0) content-box,
     linear-gradient(#fff 0 0);
   -webkit-mask-composite: destination-out;
   mask-composite: exclude;
@@ -639,7 +641,7 @@ section {
   background: url('./images/3d_4.webp');
   background-position: center;
   background-size: cover;
-  pointer-events: none;  
+  pointer-events: none;
 }
 
 .background_3d--b2b::after {
@@ -690,8 +692,8 @@ section {
 
 
 .b2b__form {
-  max-width: 500px;
-  margin: 15px 20px 30px 20px;
+  max-width: 90%;
+  margin: 20px auto;
   position: relative;
   border: 1px solid transparent;
   padding: 25px;
@@ -715,7 +717,7 @@ section {
   padding: 1px;
   background: radial-gradient(77.05% 253.56% at 32.65% 13.93%, #E2E2E2 0%, #949494 100%);
   -webkit-mask:
-    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0) content-box,
     linear-gradient(#fff 0 0);
   -webkit-mask-composite: destination-out;
   mask-composite: exclude;
@@ -748,7 +750,7 @@ section {
   border-radius: 24px;
   text-align: center;
   color: black;
-  word-break: break-word;  
+  word-break: break-word;
 }
 
 .b2b__form--result._fail {
@@ -758,7 +760,7 @@ section {
   border-radius: 24px;
   text-align: center;
   color: black;
-  word-break: break-word;  
+  word-break: break-word;
 }
 
 .b2b__form--text {
@@ -801,12 +803,10 @@ section {
 
 
 
-
-
 .faq {
   margin-top: 40px;
-  position: relative;
-  overflow: hidden;
+  border-radius: 0;
+  background-clip: padding-box;
 }
 
 .background_3d--faq {
@@ -818,7 +818,7 @@ section {
   background: url('./images/3d_5.webp');
   background-position: center;
   background-size: cover;
-  pointer-events: none;   
+  pointer-events: none;
 
 }
 
@@ -846,7 +846,6 @@ section {
   display: flex;
   flex-direction: column;
   border-radius: 20px;
-  border: 1px solid transparent;
   box-shadow: 11px 16px 20px 0px rgba(0, 0, 0, 0.09);
 }
 
@@ -858,7 +857,7 @@ section {
   padding: 1px;
   background: radial-gradient(77.05% 253.56% at 32.65% 13.93%, #E2E2E2 0%, #949494 100%);
   -webkit-mask:
-    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0) content-box,
     linear-gradient(#fff 0 0);
   -webkit-mask-composite: destination-out;
   mask-composite: exclude;
@@ -869,8 +868,6 @@ details {
   padding: 20px;
   display: block;
   width: 100%;
-  background-color: rgba(222, 222, 222, 0.5);
-  backdrop-filter: blur(4px);
 }
 
 
@@ -962,9 +959,9 @@ details[open]::details-content {
 }
 
 .footer__svg {
-  display: block;  
-  width: 100%;        
-  height: auto;       
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .designed_by {
@@ -993,6 +990,26 @@ dialog > ul {
   font-size: 20px;
 }
 
+.faq details:first-of-type {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+ .faq details:last-of-type {
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+ }
+
+ .faq__wrapper {
+   background-color: rgba(222, 222, 222, 0.5);
+   backdrop-filter: blur(4px);
+   border-radius: 20px;
+ }
+
+ html, body {
+   overflow-x: hidden; /* as a fallback */
+ }
+
 
 @media (min-width: 500px) {
   .partners {
@@ -1009,7 +1026,7 @@ dialog > ul {
 
 /* desktop */
 @media (min-width: 1024px) {
-  
+
 
   .hero {
     width: calc(100% - 160px);
@@ -1146,9 +1163,6 @@ dialog > ul {
     background-color: #52BBEF50;
   }
 
-  .steps__cards {
-    gap: 0;
-  }
 
   .step__card {
     max-width: 620px;
@@ -1315,7 +1329,6 @@ dialog > ul {
   }
 
   .b2b__content > * {
-    margin: 0;
   }
 
   .background_3d--b2b {
@@ -1369,10 +1382,11 @@ dialog > ul {
 
 
   .faq {
-    overflow: visible;
     position: unset;
     margin: 0;
+    border-radius: 0;
   }
+
 
   .faq__title {
     font-size: 64px;
