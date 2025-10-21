@@ -69,8 +69,8 @@ section {
 }
 
 @font-face {
-  font-family: 'TT Travels';
-  src: url('./fonts/TT\ Travels\ Trial\ Regular.otf') format('opentype');
+  font-family: 'Rubik';
+  src: url('./fonts/Rubik-VariableFont_wght.ttf') format('truetype');
   font-weight: 500;
   font-style: regular;
   letter-spacing: 0;
@@ -82,8 +82,8 @@ section {
   letter-spacing: 0;
 }
 
-.font_tt {
-  font-family: 'TT Travels';
+.font_rub {
+  font-family: 'Rubik';
   font-weight: 500;
   letter-spacing: 0;
 }
@@ -113,7 +113,7 @@ section {
   line-height: 30px;
 }
 
-.hero__title > .font_tt {
+.hero__title > .font_rub {
   font-style: italic;
 }
 
@@ -178,7 +178,7 @@ section {
   line-height: 30px;
 }
 
-.services__title > .font_tt {
+.services__title > .font_rub {
   font-style: italic;
 }
 
@@ -306,7 +306,7 @@ section {
   line-height: 24px;
 }
 
-.steps__title > .font_tt {
+.steps__title > .font_rub {
   font-style: italic;
 }
 
@@ -573,7 +573,7 @@ section {
   line-height: 24px;
 }
 
-.advantages__title > .font_tt {
+.advantages__title > .font_rub {
   font-style: italic;
 }
 
